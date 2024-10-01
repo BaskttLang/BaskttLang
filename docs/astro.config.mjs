@@ -31,7 +31,7 @@ export default defineConfig({
 				}
 			],
 			editLink: {
-				baseUrl: 'https://stumbdeb.github.io/basktt/src/content/docs',
+				baseUrl: 'https://stumbdev.github.io/basktt',
 			  },
 		}),
 	],
