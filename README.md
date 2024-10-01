@@ -15,3 +15,32 @@ fun Main => {
 }
 return(nothing);
 ```
+## Installing (Universal!!!)
+requirements:
+- nodejs
+- only that
+installing directy:
+```bash
+npm install --global https://github.com/StumbDev/basktt.git
+basktt --version
+0.1.0
+```
+Manual:
+```bash
+git clone https://github.com/StumbDev/basktt.git
+cd basktt
+npm i
+npm run build
+cd dist
+npm install --global .
+```
+
+Via install script`indev`
+```bash
+# Linux/Mac
+curl -fsSL https://stumbdev.github.io/basktt/install | bash
+```
+```powershell
+# Windows
+powershell -c "irm https://stumbdev.github.io/basktt/install.ps1" | iex"
+```
