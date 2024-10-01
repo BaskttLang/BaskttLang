@@ -1,6 +1,5 @@
 // Suggested code may be subject to a license. Learn more: ~LicenseLog:4232064853.
 import express from 'express';
-import { cli } from './public/scripts/compute';
 
 const app = express();
 app.use(express.static('public'));

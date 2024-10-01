@@ -13,13 +13,19 @@
   "license": "Apache-2.0",
   "dependencies": {
     "@picocss/pico": "^2.0.6",
+    "commander": "^12.1.0",
     "express": "^4.19.2",
+    "gulp": "^5.0.0",
+    "gulp-cli": "^3.0.0",
+    "gulp-exec": "^5.0.0",
+    "pkg": "^5.8.1",
     "sass": "^1.79.4"
   },
   "devDependencies": {
-    "@types/node": "^20.12.12",
+    "@types/node": "^20.16.10",
     "nodemon": "^3.1.0",
-    "typescript": "^5.4.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2",
     "typi": "^3.2.0"
   }
 }
