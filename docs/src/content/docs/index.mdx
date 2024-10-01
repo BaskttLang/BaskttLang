@@ -1,0 +1,74 @@
+---
+title: Basktt
+description: 👨‍💻The Type-based👨‍💻🚀Fast🚀💻Multiplataform📱 📜Programming language📜
+template: splash
+hero:
+  tagline: 👨‍💻The Type-based👨‍💻🚀Fast🚀💻Multiplataform📱 📜Programming language📜
+  image:
+    file: ../../assets/logo.svg
+  actions:
+    - text: Get started
+      link: /guides/intro/
+      icon: right-arrow
+    - text: GitHub
+      link: https://github.com/StumbDev/basktt
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+import { Badge } from '@astrojs/starlight/components';
+
+## Basics
+<CardGrid stagger>
+   <Card title="Install it!" icon="seti:powershell">
+   ```bash
+   # Linux/Mac
+   curl -fsSL https://stumbdev.github.io/basktt/install | bash
+   ```
+   ```powershell
+   # Windows
+   powershell -c "irm https://stumbdev.github.io/basktt/install.ps1" | iex"
+   ```
+   </Card>
+</CardGrid>
+<CardGrid stagger>
+	<Card title="Types" icon="pencil">
+		Type-Based programming
+		```typescript
+		// this is a Typescript implemented example
+import * as basktt from '@basktt/langlib';
+const basktt = new Code(null);
+function Main() {
+     // main function
+     Code.ball(Set.var(name === `
+     "Miguel",
+     "Johnny",
+     `));
+     Code.ball(text("Hello, ${name}!"));
+     Code.ball(return(null));
+     Code.ball(if(name === "Miguel") {
+        ball.text("Hello, " + $name + "!");
+     });
+     Code.ball(if(name === "Johnny") {
+        ball.do(null);
+     });
+}
+		```
+	</Card>
+	<Card title="Modules" icon="add-document">
+		Module compatible <Badge text="New" size="small" />
+		```typescript
+		// typescript implemented
+		import * as basktt from "@basktt/langlib";
+		const basktt = new Code(null);
+		function Main() {
+		Code.ball(import("man" from "bask"));
+		Code.ball(do(null));
+		}
+		```
+	</Card>
+	<Card title="Learn even more!" icon="open-book">
+		Learn more in [the Docs]().
+	</Card>
+</CardGrid>

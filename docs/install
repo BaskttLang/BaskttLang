@@ -1,0 +1,6 @@
+#!/usr/local/bin/bash
+
+echo "[i] Starting basktt installation...."
+echo "[i] Running npm i ...."
+npm install --global https://github.com/StumbDev/basktt.git
+echo "[i] installation complete! restart your shell to start coding!"
