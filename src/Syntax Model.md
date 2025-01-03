@@ -1,8 +1,7 @@
 # BaskttLang v2 syntax
 
 ### hello, world!
-```
-```
+```javascript
 @use man
 
 fun Main() => {
@@ -14,6 +13,7 @@ return(nothing)
 
 ### Types
 
+```javascript
 @use console;
 
 fun Main => {
@@ -34,6 +34,7 @@ fun Main => {
 fun add(a: Number, b: Number) => {
     return(a + b);
 }
+```
 
 ### External interpretation
 
