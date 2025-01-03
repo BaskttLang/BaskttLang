@@ -1,13 +1,11 @@
 {
   "name": "basktt",
   "description": "The new way of type-based programming",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --watch 'src/**' --ext 'ts,json' --exec 'npm run build && npm run start'",
-    "build": "tsc && sass ./src/public/styles/global.scss ./dist/public/styles/global.css",
-    "start": "node dist/index.js"
+    "dev": "ts-node src/index.ts"
   },
   "author": "MigLabs LLC.",
   "license": "Apache-2.0",
